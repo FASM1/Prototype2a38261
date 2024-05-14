@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 5513475890863154732}
   - component: {fileID: 4306501372379066870}
   - component: {fileID: 4601335679529508602}
+  - component: {fileID: 8299886660267272023}
   m_Layer: 0
   m_Name: Animal_Chick
   m_TagString: Untagged
@@ -151,7 +152,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 2.78504, y: -0.0000009536743, z: 2.5506878}
-  m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6273897296578543695}
@@ -191,7 +192,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcd5940cf62f2774db8991bf56c6f43a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 40
+  speed: 20
+--- !u!114 &8299886660267272023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485045349991902565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba8254c3b3232bc4cbce1005f55e698a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3645648099835389333
 GameObject:
   m_ObjectHideFlags: 0
