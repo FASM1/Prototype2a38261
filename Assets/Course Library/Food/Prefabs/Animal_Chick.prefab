@@ -134,8 +134,8 @@ GameObject:
   - component: {fileID: 5513475890863154732}
   - component: {fileID: 4306501372379066870}
   - component: {fileID: 4601335679529508602}
-  - component: {fileID: 8299886660267272023}
   - component: {fileID: -7890303481559465956}
+  - component: {fileID: 8125010524951209701}
   m_Layer: 0
   m_Name: Animal_Chick
   m_TagString: Untagged
@@ -193,19 +193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcd5940cf62f2774db8991bf56c6f43a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
---- !u!114 &8299886660267272023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1485045349991902565}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba8254c3b3232bc4cbce1005f55e698a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  speed: 10
 --- !u!65 &-7890303481559465956
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -227,6 +215,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 6.659794, z: 5}
   m_Center: {x: 0, y: 2.829897, z: 0}
+--- !u!114 &8125010524951209701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485045349991902565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba8254c3b3232bc4cbce1005f55e698a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3645648099835389333
 GameObject:
   m_ObjectHideFlags: 0
@@ -334,6 +334,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6273897296578543695}
+  - component: {fileID: 2209767024983963630}
   m_Layer: 0
   m_Name: ChickRig_SHJntGrp
   m_TagString: Untagged
@@ -357,6 +358,18 @@ Transform:
   - {fileID: 6703936596696994374}
   m_Father: {fileID: 5513475890863154732}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2209767024983963630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5433757558030409839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb31214a52921143a39fbb19c9d7a7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5826412789650379813
 GameObject:
   m_ObjectHideFlags: 0
